@@ -3,13 +3,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
-<a href="hobbies.html" class="button">My Hobbies</a>
-<a href="contact-me.html" class="button">Contact Me</a>
-<a href="about.html" class="button">About</a>
-<a href="https://0xrar.github.io/IronicLegion/index.html" class="button" target="_blank">Visit IronicLegion</a>
+<a href="hobbies.html" onclick="playSound();" class="button">My Hobbies</a>
+<a onclick="playSound();" href="contact-me.html" class="button">Contact Me</a>
+<a onclick="playSound();" href="about.html" class="button">About</a>
+<a onclick="playSound();" href="https://0xrar.github.io/IronicLegion/index.html" class="button" target="_blank">Visit IronicLegion</a>
 
-<audio id="audio" src="beep-07a.wav" autoplay="false" ></audio>
-<a onclick="playSound();" class="button">Click me for a beep :3</a>
+<audio id="audio" src="air.wav" autoplay="false" ></audio>
 <script>
   function playSound() {
   var sound = document.getElementById("audio");
@@ -43,7 +42,7 @@ body {
  margin: 5px 2px;
  cursor: pointer;
  opacity: 0.6;
- transition: 0.8s;
+ transition: 1.3s;
 }
 
 .textColor{
