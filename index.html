@@ -8,7 +8,16 @@
 <a href="about.html" class="button">About</a>
 <a href="https://0xrar.github.io/IronicLegion/index.html" class="button" target="_blank">Visit IronicLegion</a>
 
+<audio id="audio" src="beep-07a.wav" autoplay="false" ></audio>
+<a onclick="playSound();" class="button">Click me for a beep :3</a>
+<script>
+  function playSound() {
+  var sound = document.getElementById("audio");
+  sound.play();
+}
+</script>
 <style>
+
 
 body {
   font-family: 'Ubuntu Mono';
@@ -23,7 +32,7 @@ body {
 .button {
   background-color: orange;
  border: none;
- color: #00FB18;
+ color: black;
  padding: 5px 5px;
  border-radius: 20px;
  border-style: inherit;
@@ -77,7 +86,6 @@ body {
   <hr size=4 noshade>
   <br>
   <h3 class="textColor">Experience</h3>
-  <br>
   <ul>
     <li class="textColor">2017 | Self-Taught Programming and Hacking</li>
     <li class="textColor">2019 | Made a digital clock with Integrated Circuits</li>
