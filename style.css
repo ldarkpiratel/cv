@@ -1,0 +1,30 @@
+
+body {
+  font-family: 'Ubuntu Mono';
+  background-color: #1F1F1F;
+  font-size: 14px;
+}
+.button:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+.button {
+  background-color: orange;
+ border: none;
+ color: black;
+ padding: 5px 5px;
+ border-radius: 20px;
+ border-style: inherit;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 20px;
+ margin: 5px 2px;
+ cursor: pointer;
+ opacity: 0.6;
+ transition: 0.4s;
+}
+
+.textColor{
+  color: #D4BE33;
+}
